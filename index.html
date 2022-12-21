@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="./assets/mediaqueries.css" />
+    <link rel="stylesheet" href="./assets/animaciones.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Entrega final de módulo</title>
+  </head>
+
+  <body>
+    <header>
+      <img
+        src="./assets/img/logo 7 wonders.png"
+        alt="Logo 7 wonders"
+        class="logo"
+      />
+      <nav class="navbar">
+        <label for="menu-toggle" class="menu-label">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input id="menu-toggle" type="checkbox" />
+        <ul class="navbar-list">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#text-info">About Us</a></li>
+          <li><a href="#cards">Maravillas</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <label for="cart-toggle" class="cart-label">
+          <i class="fa-solid fa-cart-shopping cart-icon"></i>
+        </label>
+        <input type="checkbox" id="cart-toggle" />
+
+        <div class="cart">
+          <h2>Tus paquetes:</h2>
+          <div class="cart-item">
+            <img
+              src="./assets/img/coliseo.jpeg"
+              alt="Imagen del Coliseo romano"
+            />
+            <div class="item-info">
+              <h3 class="item-title">El Coliseo</h3>
+              <p class="item-bid">Precio por persona:</p>
+              <span class="item-price">$150.000</span>
+            </div>
+            <div class="item-handler">
+              <span class="quantity-handler down">-</span>
+              <span class="item-quantity">1</span>
+              <span class="quantity-handler up">+</span>
+            </div>
+          </div>
+          <div class="cart-item">
+            <img
+              src="./assets/img/Chichen-Itzá.jpg"
+              alt="Imagen de Chichen-Itzá"
+            />
+            <div class="item-info">
+              <h3 class="item-title">Chichen-Itzá</h3>
+              <p class="item-bid">Precio por persona:</p>
+              <span class="item-price">$120.000</span>
+            </div>
+            <div class="item-handler">
+              <span class="quantity-handler down">-</span>
+              <span class="item-quantity">1</span>
+              <span class="quantity-handler up">+</span>
+            </div>
+          </div>
+          <div class="cart-item">
+            <img
+              src="./assets/img/cristo-redentor.jpg"
+              alt="Imagen del Cristo Redentor"
+            />
+            <div class="item-info">
+              <h3 class="item-title">Cristo Redentor</h3>
+              <p class="item-bid">Precio por persona:</p>
+              <span class="item-price">$90.000</span>
+            </div>
+            <div class="item-handler">
+              <span class="quantity-handler down">-</span>
+              <span class="item-quantity">1</span>
+              <span class="quantity-handler up">+</span>
+            </div>
+          </div>
+          <div class="cart-item">
+            <img
+              src="./assets/img/machu-picchu.jpg"
+              alt="Imagen de Machu Picchu"
+            />
+            <div class="item-info">
+              <h3 class="item-title">Machu Picchu</h3>
+              <p class="item-bid">Precio por persona:</p>
+              <span class="item-price">$110.000</span>
+            </div>
+            <div class="item-handler">
+              <span class="quantity-handler down">-</span>
+              <span class="item-quantity">1</span>
+              <span class="quantity-handler up">+</span>
+            </div>
+          </div>
+          <div class="cart-item">
+            <img
+              src="./assets/img/muralla.jpeg"
+              alt="Imagen de la Gran Muralla"
+            />
+            <div class="item-info">
+              <h3 class="item-title">La Gran Muralla</h3>
+              <p class="item-bid">Precio por persona:</p>
+              <span class="item-price">$190.000</span>
+            </div>
+            <div class="item-handler">
+              <span class="quantity-handler down">-</span>
+              <span class="item-quantity">1</span>
+              <span class="quantity-handler up">+</span>
+            </div>
+          </div>
+          <div class="cart-item">
+            <img src="./assets/img/petra.jpg" alt="Imagen de Petra" />
+            <div class="item-info">
+              <h3 class="item-title">Petra</h3>
+              <p class="item-bid">Precio por persona:</p>
+              <span class="item-price">$160.000</span>
+            </div>
+            <div class="item-handler">
+              <span class="quantity-handler down">-</span>
+              <span class="item-quantity">1</span>
+              <span class="quantity-handler up">+</span>
+            </div>
+          </div>
+          <div class="cart-item">
+            <img src="./assets/img/Taj-Mahal.jpg" alt="Imagen del Taj-Mahal" />
+            <div class="item-info">
+              <h3 class="item-title">Taj-Mahal</h3>
+              <p class="item-bid">Precio por persona:</p>
+              <span class="item-price">$150.000</span>
+            </div>
+            <div class="item-handler">
+              <span class="quantity-handler down">-</span>
+              <span class="item-quantity">1</span>
+              <span class="quantity-handler up">+</span>
+            </div>
+          </div>
+
+          <span class="divider"></span>
+          <div class="cart-total">
+            <p>Total:</p>
+            <span>$1.090.000</span>
+          </div>
+          <button class="btn-add">Comprar</button>
+        </div>
+        <div class="overlay"></div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="hero-info">
+          <h1>Un viaje maravilloso</h1>
+          <p>Vive siete experiencias inolvidables a lo largo del mundo.</p>
+        </div>
+        <div class="hero-btn">
+          <button class="boton">Login</button>
+          <button class="boton">Sign up</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
