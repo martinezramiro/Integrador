@@ -249,7 +249,8 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 8px;
+    border: #131415 solid 2px;
     height: 35px;
     width: 90px;
     cursor: pointer;
@@ -282,6 +283,18 @@ header {
 .about-us-title {
     font-family: tahoma;
     font-style: italic;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 600;
+    background: linear-gradient(rgb(69, 38, 180) 0%, #131415 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding: 5px;
+}
+.about-us-text {
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: 400;
+    width: 85%;
+    color: #333333;
 }
