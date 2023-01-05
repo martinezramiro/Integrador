@@ -336,6 +336,8 @@ header {
     font-family: tahoma;
     font-size: 20px;
     color: #131415;
+    border-left: 3px solid rgb(233, 114, 35);
+    padding-left: 7px;
 }
 .card1-info p {
     font-family: Georgia;
@@ -382,7 +384,7 @@ header {
     padding: 5px;
     flex-wrap: wrap;
     gap: 40px;
-    }
+}
 .contact-info {
     display: flex;
     flex-direction: column;
@@ -470,16 +472,19 @@ iframe {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 0px 30px;
+    padding: 0px 25px 0px 25px;
 }
 .footer img {
     height: 100%;
 }
 .footer p {
+    border-radius: 5px;
+    border-left: 2px solid rgb(233, 114, 35);
+    border-right: 2px solid whitesmoke;
+    padding: 5px 15px 5px 15px;
     font-family: georgia;
     font-size: 15px;
     color: whitesmoke;
-    
 }
 .footer p span {
     font-family: tahoma;
