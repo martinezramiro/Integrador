@@ -100,6 +100,10 @@
     .card1 {
         flex-direction: column;
     }
+    .card2 img,
+    .card1 img {
+        width: 80%;
+    }
     #contact {
         gap: 20px;
         padding: 20px;
@@ -118,5 +122,59 @@
 }
 
 @media (max-width: 576px) /*hasta 320px*/ {
-
+    .cart-label i::before {
+        margin-right: 5px;
+    }
+    .cart {
+        left: 0;
+        width: 100%;
+        border: none;
+        padding: 10px;
+    }
+    .cart h2 {
+        text-align: center;
+    }
+    .cart-item {
+        justify-content: center;
+    }
+    .item-handler {
+        flex-direction: column-reverse;
+    }
+    #hero {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .hero-info {
+        gap: 15px;
+    }
+    #about-us {
+        padding: 10px;
+    }
+    .card2 img,
+    .card1 img {
+        width: 95%;
+    }
+    .card1-info h3 {
+        font-size: 15px;
+    }
+    #contact {
+        flex-direction: column;
+        height: 100%;
+        padding: 5px;
+        gap: 2px;
+    }
+    .contact-info-datos h4 {
+        font-size: 17px;
+    }
+    iframe {
+        width: 95%;
+    }
+    .footer {
+        padding: 20px 10px 20px 10px;
+        flex-direction: column;
+    }
+    #footer {
+        height: 140px;
+    }
 } 
