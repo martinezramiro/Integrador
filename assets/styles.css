@@ -383,7 +383,6 @@ header {
     justify-content: center;
     color: #131415;
     padding: 5px;
-    flex-wrap: wrap;
     gap: 40px;
 }
 .contact-info {
