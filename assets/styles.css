@@ -492,3 +492,59 @@ iframe {
     font-size: 18px;
     color: rgb(233, 114, 35);
 }
+
+.navbar__list__login li a{
+    font-family: tahoma;
+    color: #131415;
+    transition: all 0.2s ease-out;
+}
+.navbar__list__login li a:hover{
+    transition: all 0.2s ease-out;
+    color: rgb(233, 114, 35);
+}
+.form__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    width: 100%;
+    height: 85vh;
+    background: linear-gradient(whitesmoke 20%, rgb(93, 3, 103));
+    padding: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.form__title {
+    font-family: tahoma;
+    font-size: 25px;
+    color: #131415;
+}
+.form__input {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    text-align: left;
+    padding: 5px;
+}
+.form__boton {
+    background-color: none;
+    color: #131415;
+    font-family: tahoma;
+    font-size: 15px;
+    font-weight: 600;
+}
+.form__container button {
+    height: 30px;
+    width: 120px;
+    border: 2px solid #131415;
+    border-radius: 5px;
+    background: whitesmoke;
+    transition: all 0.2s linear;
+}
+.form__container button:hover {
+    transform: scale(1.1);
+    transition: all 0.2s linear;
+    background-color: lightgray;
+    cursor: pointer;
+}
